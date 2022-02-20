@@ -18,7 +18,7 @@ const GetImages = ({id}) => {
                     </a>
                   </div>
                   <div className="card-body">
-                    <img src={datail.urls.full} className="img-setting"/>
+                    <img src={datail.urls.full} className="img-post"/>
                   </div>
                   <div className="card-footer">
                     <FaRegHeart size={25} /><span className="mx-2"></span><FaRegComment size={25} /><br/><label>{datail.user.total_likes} Likes</label>

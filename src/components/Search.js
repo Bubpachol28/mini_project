@@ -19,7 +19,7 @@ const Search = () => {
         <>
             <div className="container">
                 <div className='card-body'>
-                    <h1>React Unsplash API</h1>
+                    <h1>Unsplash API</h1>
                     <br></br>
                     <p>By Bubpachol Suwanwisoot 624259018</p>
 
@@ -29,7 +29,7 @@ const Search = () => {
               onChange={(e) => setPhoto(e.target.value)}
               className="form-control"
               type="text"
-              placeholder="ข้อความสำหรับการค้นหา"/>
+              placeholder="พิมพ์ข้อความสำหรับการค้นหา"/>
             <div className="input-group-append">
               <button
                 type="submit"

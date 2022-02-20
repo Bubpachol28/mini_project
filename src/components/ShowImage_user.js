@@ -20,7 +20,7 @@ const ShowImage_user = ({ id }) => {
           <div className="img-map">
             {img.map((photo) => (
               <>
-                <center><img className="img-of-user" src={photo.urls.raw} /></center>
+                <center><img className="img-url" src={photo.urls.raw} /></center>
               </>
             ))}
           </div>
