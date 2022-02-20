@@ -1,0 +1,11 @@
+
+.card-body
+{
+ 
+    margin: 20px 0px 0px 3%;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #D8FFF6;
+    text-align: center;
+    font-size: 18;
+}
