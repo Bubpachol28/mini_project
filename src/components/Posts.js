@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaRegHeart, FaRegComment } from "react-icons/fa";
-
+import { BiPencil } from "react-icons/bi";
+import { BsSuitHeart } from "react-icons/bs";
 const GetImages = ({id}) => {
   return (
     <>
@@ -21,7 +21,7 @@ const GetImages = ({id}) => {
                     <img src={datail.urls.full} className="img-post"/>
                   </div>
                   <div className="card-footer">
-                    <FaRegHeart size={25} /><span className="mx-2"></span><FaRegComment size={25} /><br/><label>{datail.user.total_likes} Likes</label>
+                    <BsSuitHeart size={25} /><span className="mx-2"></span><BiPencil size={25} /><br/><label>{datail.user.total_likes} Likes</label>
                     <br/>
                     <a href={"/profile/"+datail.user.username} className="link-user">
                       <span className="fs16 fs-bold">{datail.user.first_name} </span>

@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import Post from '../components/Posts';
+
 const Search = () => {
     const [photo, setPhoto] = useState([]);
-    const [clientId] = useState("MYq3E7dLL-MDJIPtc_bS2aDcJYkRTtwP2c-Um_PXDLw")
+    const [clientId] = useState("TxVCrZv0HB8cC4-nFj0v3DgRDhKl6JfEEcS5TfV4vGM")
     const [result, setResult] = useState([])
 
     const handleSubmit = (event) => {
@@ -21,27 +22,29 @@ const Search = () => {
                 <div className='card-body'>
                     <h1>Unsplash API</h1>
                     <br></br>
-                    <p>By Bubpachol Suwanwisoot 624259018</p>
-
+                    <p>Image Search.</p>
                     <form onSubmit={handleSubmit}>
           <div className="fix-input-text input-group text-center">
             <input
               onChange={(e) => setPhoto(e.target.value)}
               className="form-control"
               type="text"
-              placeholder="พิมพ์ข้อความสำหรับการค้นหา"/>
+              placeholder="พิมพ์ข้อความสำหรับการค้นหา"/> 
+              </div>
+              <br></br>
             <div className="input-group-append">
               <button
                 type="submit"
-                className="btn btn-success px-5">
+                className="btn btn-warning px-5">
                 ค้นหา
               </button>
             </div>
-          </div>
+         
         </form> 
 
                 </div>
             </div>
+          
 
             <Post id={result} />
         </>

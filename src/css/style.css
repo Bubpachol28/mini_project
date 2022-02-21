@@ -5,10 +5,14 @@
     margin: 20px 0px 0px 3%;
     padding: 20px 0px 0px 0px;
     font-family: 'Kanit', sans-serif;
-    background-color: #D8FFF6;
+  
     text-align: center;
     font-size: 18;
     
+}
+body{
+
+    background-image: url("https://images.pexels.com/photos/907274/pexels-photo-907274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 img.img-url
 {
@@ -28,5 +32,6 @@ img.img-post
 div.img-map
 {
     column-count: 3;
+
 
 }
