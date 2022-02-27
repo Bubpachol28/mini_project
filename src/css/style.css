@@ -5,10 +5,8 @@
     margin: 20px 0px 0px 3%;
     padding: 20px 0px 0px 0px;
     font-family: 'Kanit', sans-serif;
-  
     text-align: center;
     font-size: 18;
-    
 }
 body{
 
@@ -20,7 +18,7 @@ img.img-url
     width: 100%;
     margin: 20px 0px 0px 3%;
     padding: 20px 0px 0px 0px;
-    border-radius: 10%;
+    border-radius: 5%;
     
 }
 img.img-post
